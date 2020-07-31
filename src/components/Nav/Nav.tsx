@@ -48,6 +48,19 @@ const Nav: React.FC<ThemeUIProps> = ({ sx, ...props }) => {
 
             <li>
               <GatsbyLink
+                to="/about/"
+                data-active={
+                  location.pathname.includes('/about') ? true : null
+                }
+              >
+                <NavLink as="span" mr={[1, 2]}>
+                  About
+                </NavLink>
+              </GatsbyLink>
+            </li>
+
+            <li>
+              <GatsbyLink
                 to="/projects/"
                 data-active={
                   location.pathname.includes('/projects') ? true : null

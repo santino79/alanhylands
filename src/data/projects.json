@@ -1,59 +1,57 @@
 [
   {
-    "title": "AZ Golf Gurus",
-    "date": "2019-04-22",
-    "description": "In addition to designing & developing the website, I also created the branding for this (now defunct) Arizona-based golf services company.",
-    "website": "https://az-golf-gurus.netlify.com"
+    "title": "Technical Director at Cura Fitness.",
+    "date": "2020-07-30",
+    "description": "Cura Fitness is a boutique fitness studio based in County Down, Northern Ireland. I run the back office operations including finance, data, technology, systems and administration.",
+    "website": "https://curafitness.com/"
   },
   {
-    "title": "Most Wanted",
-    "date": "2019-02-14",
-    "description": "Get a list of your top 25 most-played albums that you don't own on physical media yet. A good way to figure out how to spend $500.",
-    "website": "https://most-wanted.lowmess.com",
-    "repo": "https://github.com/lowmess/music/tree/master/src/most-wanted"
+    "title": "Course Creator at SQL Crash Course.",
+    "date": "2020-07-30",
+    "description": "I created an online SQL course to help people build the solid groundwork they need to get up to speed quickly with SQL.",
+    "website": "https://sqlcrashcourse.com/",
+    "repo": "https://github.com/santino79/simple-sql-crash-course"
   },
   {
-    "title": "Chirp",
-    "date": "2018-11-01",
-    "description": "To help the client transition into their new brand before the Black Friday rush, I developed this ecommerce site in under 6 weeks. Built at Fuel Made.",
-    "website": "https://gochirp.com"
+    "title": "Writer here and elsewhere",
+    "date": "2020-07-30",
+    "description": "This is my personal website where I write articles on a variety of topics including business, personal finance, tech, careers, writing and my quest to build a simple kind of life. I've been a professional writer with clients including About.com and The New York Times Company. These days, I am a contributing writer on Towards Data Science, Hacker Noon and Dev.to.",
+    "website": "https://alanhylands.com/blog/"
   },
   {
-    "title": "cocokind",
-    "date": "2018-07-01",
-    "description": "While working at Fuel Made, I developed this skincare ecommerce website. It was the first site built with an atomic CSS library I wrote while at the agency.",
-    "website": "https://www.cocokind.com"
+    "title": "Founder at Santinotech",
+    "date": "2020-07-30",
+    "description": "Santinotech was the umbrella for my tech consultancy and development projects. I helped small teams use their data and technology to build stronger, more ethical, data-informed businesses."
   },
   {
-    "title": "herohero",
-    "date": "2017-11-25",
-    "description": "Generate social media hero images from HTML files. Because sometimes designing in the browser is just easier than opening Sketch.",
-    "repo": "https://github.com/lowmess/herohero"
+    "title": "Liz's Lockets",
+    "date": "2016-12-31",
+    "description": "Liz's Lockets was my wife's e-commerce business which sold memory lockets and costume jewellery. I built and ran the e-commerce store. I also appeared regularly as her Lovely Debbie McGee at craft fairs and markets when we took the business out on the road. Soon to be re-launched with our 9 year old daughter at the helm as her first taste of entrepreneurship.",
+    "website": "https://lizslockets.com"
   },
   {
-    "title": "Genentech AEM Components",
-    "date": "2017-01-01",
-    "description": "As part of a team tasked with streamlining the development of over 100 Genentech websites, I developed a brand-agnostic component library in Adobe Experience Manager. Built at meltmedia.",
-    "website": "https://meltmedia.com/work/genentech-aem-platform"
+    "title": "Sports Boffin",
+    "date": "2012-01-01",
+    "description": "Sports Boffin was a sports betting prediction engine. I started with football (of course) and built a full data platform on MS SQL Server. Match results and betting odds were scraped and loaded daily. I built a predictive algorithm that compared each game to the two sides' previous form in similarly matched encounters (based on my modified homespun version of Rateform)."
   },
   {
-    "title": "hero-patterns.js",
-    "date": "2016-10-28",
-    "description": "Easily use patterns from heropatterns.com, right in your JavaScript. Perfect for CSS-in-JS solutions and randomization.",
-    "website": "https://hero-patterns.lowmess.com",
-    "repo": "https://github.com/lowmess/hero-patterns"
+    "title": "Liquid Gem",
+    "date": "2012-07-01",
+    "description": "Liquid Gem was a Business Intelligence and Marketing Strategy consultancy I set up in 2011 with some old comrades. We did some great work in Irish banking and made some contacts in New York. We parked it in late 2012 when a too good to turn down offer to go in-house at our main client came up."
   },
   {
-    "title": "Metalsmith Resume",
-    "date": "2016-07-13",
-    "description": "Make writing your résumé suck less bad. Generate a simple static site & PDF résumé from Markdown with a few keystrokes.",
-    "website": "https://metalsmith-resume.lowmess.com",
-    "repo": "https://github.com/lowmess/metalsmith-resume"
+    "title": "Liquid Voices",
+    "date": "2012-07-30",
+    "description": "Liquid Voices was one of the projects we spun out from Liquid Gem back in 2012. A B2C membership site which let members complete online surveys for companies and compete to win prizes and earn rewards."
   },
   {
-    "title": "Phenotonic",
-    "date": "2016-02-01",
-    "description": "After noticing a lack of products geared towards home gardening, my brother & I founded a business to fill that gap. I was responsible for all creative & development work on the brand.",
-    "website": "https://archive--phenotonic.netlify.com"
+    "title": "State of the Game",
+    "date": "2006-02-01",
+    "description": "State of the Game was a football blog I started in 2005. It grew massively for a few years and gave me the opportunity to become a professional football writer for About.com and The New York Times Company. I covered more of the back story in an article called I Want To Be A Football Writer When I Grow Up."
+  },
+  {
+    "title": "White Storm",
+    "date": "2003-03-05",
+    "description": "White Storm was my first e-commerce development agency, started in 2003. It stayed with me either as my full-time focus or as a vehicle for my side projects until 2007 when I set it aside and joined the big bad world of banking."
   }
 ]

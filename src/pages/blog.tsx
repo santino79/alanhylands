@@ -52,7 +52,7 @@ const BlogPage: React.FC = () => {
       <Header>
         <HeaderName>Blog</HeaderName>
 
-        <HeaderTitle>Eloquent Writings About Stuff</HeaderTitle>
+        <HeaderTitle>Some Things I've Written</HeaderTitle>
       </Header>
 
       <Container as="main" mt={[4, 5]}>
@@ -86,9 +86,9 @@ const BlogPage: React.FC = () => {
                     </GatsbyLink>
                   </Heading>
 
-                  <Text as="p" sx={{ maxWidth: 'measure', marginTop: 1 }}>
+                  {/* <Text as="p" sx={{ maxWidth: 'measure', marginTop: 1 }}>
                     {frontmatter.description}
-                  </Text>
+                  </Text> */}
                 </div>
               </React.Fragment>
             )

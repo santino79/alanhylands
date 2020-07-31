@@ -64,20 +64,13 @@ const Footer: React.FC<ThemeUIProps> = (props) => {
               </li>
 
               <li>
+                <FooterLink to="/about">About</FooterLink>
+              </li>
+
+              <li>
                 <FooterLink to="/blog">Blog</FooterLink>
               </li>
 
-              <li>
-                <FooterLink to="/colophon">Colophon</FooterLink>
-              </li>
-
-              <li>
-                <FooterLink to="/uses">Uses</FooterLink>
-              </li>
-
-              <li>
-                <FooterLink href="/rss.xml">RSS</FooterLink>
-              </li>
             </Box>
           </Box>
 
@@ -88,38 +81,26 @@ const Footer: React.FC<ThemeUIProps> = (props) => {
 
             <Box as="ul" variant="list" sx={{ lineHeight: 1.75 }}>
               <li>
-                <FooterLink href="https://github.com/lowmess">
+                <FooterLink href="https://github.com/santino79">
                   GitHub
                 </FooterLink>
               </li>
 
               <li>
-                <FooterLink href="https://twitter.com/lowmess">
+                <FooterLink href="https://twitter.com/alanhylands">
                   Twitter
                 </FooterLink>
               </li>
 
               <li>
-                <FooterLink href="https://dribbble.com/lowmess">
-                  Dribbble
-                </FooterLink>
-              </li>
-
-              <li>
-                <FooterLink href="https://codepen.io/lowmess">
-                  CodePen
-                </FooterLink>
-              </li>
-
-              <li>
-                <FooterLink href="https://linkedin.com/in/lowmess">
+                <FooterLink href="https://linkedin.com/in/alanhylands">
                   LinkedIn
                 </FooterLink>
               </li>
 
               <li>
-                <FooterLink href="https://resume.lowmess.com">
-                  Résumé
+                <FooterLink href="mailto:alan@alanhylands.com">
+                  Email
                 </FooterLink>
               </li>
             </Box>
@@ -145,9 +126,9 @@ const Footer: React.FC<ThemeUIProps> = (props) => {
               </Link>
             </GatsbyLink>
 
-            <Text as="p" sx={{ maxWidth: 'measure', marginTop: 1 }}>
+            {/* <Text as="p" sx={{ maxWidth: 'measure', marginTop: 1 }}>
               {post.frontmatter.description}
-            </Text>
+            </Text> */}
           </Box>
         </Grid>
       </Container>

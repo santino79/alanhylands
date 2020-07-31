@@ -40,7 +40,7 @@ const ProjectsPage: React.FC = () => {
       <Header>
         <HeaderName>Projects</HeaderName>
 
-        <HeaderTitle>First-World Problem Solvers</HeaderTitle>
+        <HeaderTitle>Some things I've done.</HeaderTitle>
       </Header>
 
       <Container as="main" mt={5}>

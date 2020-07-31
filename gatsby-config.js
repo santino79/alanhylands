@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'lowmess',
-    description: `My name is Alec Lomas, and I make websites.`,
-    siteUrl: 'https://www.lowmess.com',
+    title: 'Alan Hylands',
+    description: `Alan Hylands - Data Analyst - Writer`,
+    siteUrl: 'https://alanhylands.com',
   },
   plugins: [
     // Adding various source folders to the GraphQL layer.
@@ -20,14 +20,14 @@ module.exports = {
         path: `${__dirname}/src/data/`,
       },
     },
-    {
-      resolve: 'gatsby-source-graphql',
-      options: {
-        typeName: 'STATS',
-        fieldName: 'stats',
-        url: 'https://stats.lowmess.com/graphql',
-      },
-    },
+    // {
+    //   resolve: 'gatsby-source-graphql',
+    //   options: {
+    //     typeName: 'STATS',
+    //     fieldName: 'stats',
+    //     url: 'https://stats.lowmess.com/graphql',
+    //   },
+    // },
     {
       resolve: 'gatsby-plugin-mdx',
       options: {
@@ -108,7 +108,7 @@ module.exports = {
                 }
               `,
             output: '/rss.xml',
-            title: 'Alec Lomas • lowmess.com',
+            title: 'Alan Hylands • alanhylands.com',
             match: '^/blog/',
           },
         ],
@@ -117,10 +117,10 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'lowmess',
-        short_name: 'lowmess',
+        name: 'alanhylands',
+        short_name: 'alanhylands',
         start_url: '/',
-        background_color: '#f2930d',
+        background_color: '#006600',
         theme_color: '#f9f9f8',
         display: 'minimal-ui',
         icons: [

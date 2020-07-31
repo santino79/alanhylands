@@ -1,21 +1,2 @@
-# lowmess.com
-
-## Installing
-
-```bash
-git clone https://github.com/lowmess/lowmess.git
-cd lowmess
-npm i
-```
-
-## Building
-
-```bash
-npm run build
-```
-
-## Developing
-
-```bash
-npm run start
-```
+All respect and design chops go to https://lowmess.com
+This is a Gatsby clone of https://github.com/lowmess/lowmess.git

@@ -1,7 +1,7 @@
 {
-  "name": "lowmess",
-  "version": "4.0.0",
-  "description": "The website and portfolio of Alec Lomas",
+  "name": "alanhylands",
+  "version": "2.0.0",
+  "description": "The personal website of Alan Hylands",
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build",
@@ -9,19 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lowmess/lowmess.git"
+    "url": "git+https://github.com/santino79/alanhylands.git"
   },
   "keywords": [
-    "portfolio",
-    "frontend",
-    "design"
+    "data",
+    "analyst",
+    "writer"
   ],
-  "author": "Alec Lomas",
+  "author": "Alan Hylands",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lowmess/lowmess/issues"
+    "url": "https://github.com/santino79/alanhylands/issues"
   },
-  "homepage": "https://lowmess.com",
+  "homepage": "https://alanhylands.com",
   "dependencies": {
     "@mdx-js/mdx": "^1.6.6",
     "@mdx-js/react": "^1.6.6",
@@ -47,6 +47,7 @@
     "gatsby-transformer-json": "^2.4.10",
     "gatsby-transformer-sharp": "^2.5.10",
     "github-slugger": "^1.3.0",
+    "i": "^0.3.6",
     "lowmess-prism": "^1.0.3",
     "preact": "^10.4.5",
     "preact-render-to-string": "^5.1.9",
