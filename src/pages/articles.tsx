@@ -46,11 +46,11 @@ const BlogPage: React.FC = () => {
   return (
     <Layout>
       <Helmet>
-        <title>Blog</title>
+        <title>Articles</title>
       </Helmet>
 
       <Header>
-        <HeaderName>Blog</HeaderName>
+        <HeaderName>Articles</HeaderName>
 
         <HeaderTitle>Some Things I've Written</HeaderTitle>
       </Header>
@@ -67,7 +67,7 @@ const BlogPage: React.FC = () => {
                 <Box sx={{ display: ['none', 'block'] }} />
               ) : (
                 <Heading color="muted-text" mt={[4, 0]}>
-                  {thisYear}
+                  {/* {thisYear} */}
                 </Heading>
               )
 

@@ -109,7 +109,7 @@ module.exports = {
               `,
             output: '/rss.xml',
             title: 'Alan Hylands • alanhylands.com',
-            match: '^/blog/',
+            match: '^/articles/',
           },
         ],
       },
