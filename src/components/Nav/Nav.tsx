@@ -35,16 +35,6 @@ const Nav: React.FC<ThemeUIProps> = ({ sx, ...props }) => {
 
         <Flex sx={{ alignItems: 'center' }}>
           <Flex as="ul">
-            <li>
-              <GatsbyLink
-                to="/"
-                data-active={location.pathname === '/' ? true : null}
-              >
-                <NavLink as="span" mr={[1, 2]}>
-                  Home
-                </NavLink>
-              </GatsbyLink>
-            </li>
 
             <li>
               <GatsbyLink

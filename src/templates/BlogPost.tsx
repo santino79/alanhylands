@@ -81,7 +81,7 @@ const BlogPostTemplate: React.FC<Props> = ({ pageContext, children }) => {
 
         <meta name="description" content={post.frontmatter.description} />
 
-        <meta name="twitter:site" content="@lowmess" />
+        <meta name="twitter:site" content="@alanhylands" />
         <meta name="twitter:card" content="summary" />
         <meta property="og:site_name" content={title} />
         <meta
@@ -99,11 +99,11 @@ const BlogPostTemplate: React.FC<Props> = ({ pageContext, children }) => {
 
       <Box as="header">
         <Container sx={{ maxWidth: 'mdx-measure', fontSize: [null, null, 3] }}>
-          <HeaderName as="span">
+          {/* <HeaderName as="span">
             <time dateTime={post.frontmatter.datetime}>
               {post.frontmatter.date}
             </time>
-          </HeaderName>
+          </HeaderName> */}
 
           <HeaderTitle as="h1" aria-hidden="false">
             {post.frontmatter.title}
