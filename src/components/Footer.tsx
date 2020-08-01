@@ -56,7 +56,7 @@ const Footer: React.FC<ThemeUIProps> = (props) => {
 
             <Box as="ul" variant="list" sx={{ lineHeight: 1.75 }}>
               <li>
-                <FooterLink to="/">Home</FooterLink>
+                <FooterLink to="/now">/now</FooterLink>
               </li>
 
               <li>
@@ -108,7 +108,7 @@ const Footer: React.FC<ThemeUIProps> = (props) => {
 
           <Box sx={{ display: ['none', 'block'] }}>
             <Text variant="section-heading" mb={3}>
-              Latest Article
+              Latest Post
             </Text>
 
             <GatsbyLink to={post.fields.slug}>
