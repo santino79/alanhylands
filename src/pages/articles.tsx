@@ -56,7 +56,7 @@ const BlogPage: React.FC = () => {
       </Header>
 
       <Container as="main" mt={[4, 5]}>
-        <Grid columns={[1, '8rem 1fr']} gap={[4, 5]}>
+        <Grid columns={[1, '0rem 1fr']} gap={[4, 5]}>
           {posts.map(({ node }: { node: Post }) => {
             const { fields, frontmatter } = node
 
