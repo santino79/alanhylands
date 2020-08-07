@@ -144,6 +144,12 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-remove-serviceworker',
     'gatsby-plugin-sharp',
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-20763994-2`,
+      },
+    },
     'gatsby-plugin-sitemap',
     'gatsby-plugin-theme-ui',
     'gatsby-plugin-netlify',
