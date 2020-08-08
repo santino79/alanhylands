@@ -68,7 +68,7 @@ const Footer: React.FC<ThemeUIProps> = (props) => {
               </li>
 
               <li>
-                <FooterLink to="/articles">Articles</FooterLink>
+                <FooterLink to="/writing">Writing</FooterLink>
               </li>
 
             </Box>

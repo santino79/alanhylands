@@ -29,6 +29,21 @@ const IndexPage: React.FC = () => {
             <br />
             And I help them get started learning SQL with my online {' '}<Link href="https://sqlcrashcourse.com/">SQL Crash Course</Link>.
           </Text>
+          <br /><br />
+          <Text as="p" variant="site-intro-body">
+            This is my personal site where I write on a variety of topics including data, business, personal finance, tech, careers, writing 
+            and my quest to build a simple kind of life. 
+            <br /><br />
+            Some of it is in complete articles, some will be more in note form as I try to cultivate a <Link href="/building-a-digital-garden/">digital garden</Link> of my thoughts. 
+
+            <h4>Want to know more?</h4>
+              <ul>
+                <li>See my <Link href="/about/">About</Link> page for some back story.</li>
+                <li>Check out my <Link href="/projects/">Projects</Link> page for more info on my current and past projects.</li>
+              </ul>
+
+
+          </Text>
         </Text>
       </Container>
     </Layout>

@@ -64,10 +64,10 @@ const Nav: React.FC<ThemeUIProps> = ({ sx, ...props }) => {
 
             <li>
               <GatsbyLink
-                to="/articles/"
-                data-active={location.pathname.includes('/articles') ? true : null}
+                to="/writing/"
+                data-active={location.pathname.includes('/writing') ? true : null}
               >
-                <NavLink as="span">Articles</NavLink>
+                <NavLink as="span">Writing</NavLink>
               </GatsbyLink>
             </li>
           </Flex>

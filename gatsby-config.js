@@ -20,14 +20,6 @@ module.exports = {
         path: `${__dirname}/src/data/`,
       },
     },
-    // {
-    //   resolve: 'gatsby-source-graphql',
-    //   options: {
-    //     typeName: 'STATS',
-    //     fieldName: 'stats',
-    //     url: 'https://stats.lowmess.com/graphql',
-    //   },
-    // },
     {
       resolve: 'gatsby-plugin-mdx',
       options: {
@@ -109,7 +101,7 @@ module.exports = {
               `,
             output: '/rss.xml',
             title: 'Alan Hylands • alanhylands.com',
-            match: '^/articles/',
+            match: '^/writing/',
           },
         ],
       },

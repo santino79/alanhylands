@@ -28,4 +28,13 @@ export default {
     fontWeight: 'bold',
     letterSpacing: '-0.02em',
   },
+
+  'site-intro-body': {
+    display: 'inline',
+    fontSize: [3, 4],
+    fontWeight: 'normal',
+    lineHeight: 'copy',
+    letterSpacing: '-0.02em',
+  },
+
 }
