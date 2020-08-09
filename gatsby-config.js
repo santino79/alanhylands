@@ -129,6 +129,7 @@ module.exports = {
         ],
       },
     },
+    'gatsby-plugin-offline',
     'gatsby-transformer-json',
     'gatsby-transformer-sharp',
     'gatsby-plugin-catch-links',
@@ -144,6 +145,32 @@ module.exports = {
     },
     'gatsby-plugin-sitemap',
     'gatsby-plugin-theme-ui',
-    'gatsby-plugin-netlify',
+    {
+      resolve: `gatsby-plugin-netlify`,
+      options: {
+        headers: {
+          "/**/*.html": [
+            "cache-control: public",
+            "cache-control: max-age=0",
+            "cache-control: must-revalidate",
+          ],
+          "/page-data/*.json": [
+            "cache-control: public",
+            "cache-control: max-age=0",
+            "cache-control: must-revalidate",
+          ],
+          "/app-data.json": [
+            "cache-control: public",
+            "cache-control: max-age=0",
+            "cache-control: must-revalidate",
+          ],
+          "/static/*": [
+            "cache-control: public",
+            "cache-control: max-age=31536000",
+            "cache-control: immutable",
+          ],
+        },
+      },
+    },
   ],
 }
