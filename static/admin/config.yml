@@ -5,10 +5,12 @@ backend:
 media_folder: static/images
 public_folder: /images
 
+publish_mode: editorial_workflow
+
 collections:
   - name: 'writing'
     label: 'Writing'
-    folder: 'pages'
+    folder: 'src/pages'
     create: true
     slug: 'index'
     media_folder: ''
