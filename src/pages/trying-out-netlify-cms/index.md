@@ -1,6 +1,6 @@
 ---
 title: Trying out Netlify CMS
-date: 2020-12-29T17:46:52.619Z
+date: 2020-12-29
 description: I've been trying out Netlify CMS
 ---
 ## This is more like testing.
